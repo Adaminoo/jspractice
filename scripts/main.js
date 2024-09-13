@@ -14,7 +14,7 @@ let transferFunds = function(){}; //Function
 let x = 5; //Like in algebra
 let y = 'text'; //Can hold numbers, strings, booleans, functions
 let price = 100; //Can be initialized or not initialized
-let price1; //Can have numbres in name, cannot start with numbers
+let price1; //Can have numbers in name, cannot start with numbers
 let Price; //Are case sensitive
 let pricePerCamel; //Standard is to use camel case
 
@@ -28,4 +28,7 @@ let madMovie = batman + 'vs' + superman; //'Batman vs Superman'
 
 let trickQuestions = batman + bacon; // ?
 
-let practice = {}
+let practice = {boolin: true, numba: 2, strangus: 'fortnite'};
+let ads = (2 + 45);
+let ermm = ('fartnite' + 'battle pass');
+console.log(ermm + ads);
