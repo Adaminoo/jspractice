@@ -1,5 +1,5 @@
 document.getElementById("heading").innerHTML = "Hello World";
-alert("Javascript Test");
+
 
 let dontCare = null; //Null
 let dontKnow = undefined; //Undefined
@@ -29,6 +29,17 @@ let madMovie = batman + 'vs' + superman; //'Batman vs Superman'
 let trickQuestions = batman + bacon; // ?
 
 let practice = {boolin: true, numba: 2, strangus: 'fortnite'};
-let ads = (2 + 45);
-let ermm = ('fartnite' + 'battle pass');
+let ads = (2 + 42);
+let ermm = ('fartnite ' + 'battle pass');
 console.log(ermm + ads);
+
+const firstname = "Joel";
+const lastname = "Frasier";
+const middlename = "Darryl ";
+const nametitle = 'Sir ';
+
+function combinename(fname, lname){
+	return nametitle + " " + fname + " " +   middlename + "" + lname;
+ }
+
+alert(combinename(firstname, lastname));
