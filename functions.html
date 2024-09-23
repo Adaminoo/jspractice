@@ -5,7 +5,15 @@
         <link rel="stylesheet" href="css/style.css">
         <script src="scripts/functions.js" defer></script>
     </head>
-    <body>
+    <body onload="adamBrunner(dumb, stinky)">
         <div id="heading"></div>
+
+        <div class="calculator">
+            <input id="input1" type="number"></input>
+            <div id="operator">+</div>
+            <input id="input2" type="number"></input>
+            <button id="equals" onClick="calc()">=</button>
+            <div id="solution"></div>
+        </div>
     </body>
 </html>
